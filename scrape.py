@@ -5,8 +5,6 @@ import bs4
 # some subreddits I'm interested in
 subreddits = ['/r/Science',
     '/r/AskScience',
-    '/r/cogsci',
-    '/r/medicine',
     '/r/everythingscience',
     '/r/learnprogramming',
     '/r/compsci',
@@ -19,16 +17,16 @@ subreddits = ['/r/Science',
     '/r/learnpython',
     '/r/engineering',
     '/r/ubuntu',
-    '/r/EngineeringStudents',
-    '/r/askengineers',
     '/r/stocks',
-    '/r/stockmarket',
     '/r/math',
     '/r/Space',
     '/r/nhl',
-    '/r/spacex',
-    '/r/nasa',
-    '/r/history']
+    '/r/nutrition',
+    '/r/history',
+    '/r/lifehacks',
+    '/r/ZenHabits',
+    '/r/climbing',
+    '/r/food']
 
 async def get_top_link(page):
     soup = bs4.BeautifulSoup(page, "lxml")
